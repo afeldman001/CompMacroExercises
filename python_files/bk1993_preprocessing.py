@@ -198,3 +198,10 @@ MODEL = {
     "param_nbr": param_nbr,
     "order_var": order_var
 }
+
+# print the Jacobian matrices 
+print("\nDynamic Jacobian (G1):")
+sp.pprint(dynamic_g1)
+
+print("\nStatic Jacobian (G1):")
+sp.pprint(static_g1)
